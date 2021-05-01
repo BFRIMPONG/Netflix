@@ -11,39 +11,19 @@ body{
     
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
-}
-
-
 .grid-item{
     width: 100%;
     height: 900px;
-    display: grid;
+    /* display: grid; */
     background-image: url(../img/img/GH-en-20210301-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    filter:brightness(0.6);
     background-size: cover;
     background-position: center;
         /* border: 10px solid yellow; */
      /* font-size: 50px;  */
-    grid-column: 1/3;
     border-bottom: 20px solid #333;
 }
-.grid-item nav{
-    width: 100%;
-    height: 20%;
-    /* border: 1px solid green; */
-    /* background:indigo */
-}
-/* nav img{
-    background:white;
-    height: 140px;
-    width:50%;
-    text-decoration: none;
-    /* font-size: 30px; */
-    /* align-items: left; 
-} */
+
 
 .grid-item nav a{
    width: 100%;
@@ -55,43 +35,39 @@ body{
    text-decoration: none;
    text-align: right;
 }
-/* .header{
-    position: absolute;
-    width: 15%;
-    top: -5;
-} */
 
-.header{
-    position: absolute;
-    top: 10px;
-    padding: 15px;
-    
+nav{
+   width: 90%;
+   /* padding-top: 40px; */
+   height: 20%;
+   /* border: 5px solid green; */
+   margin: 20px auto;
+   margin-top: 0;
+   padding-top: 40px;
+   display:flex;
+   justify-content: space-between;
 }
-.sign{
-    position: relative;
-    margin-left: 1200px;
-   
-}
-/* hr{
-    color: #333;
-    font-size: 20px;
-} */
 
+.btn{
+    /* border: 2px solid blue; */
+    margin-top: 30px;
+}
 .grid-item nav button{
     background-color: #e50914;
+    width: 100%;
+    height: 40%;
     color: #fff;
     font-size: 30px;
-    position: relative;
+    /* position: flex; */
     /* border: 0; */
     border-radius: 7px;
     padding: 10px;
-    margin-left: 1500px;
-    margin-top: 50px;
+    /* margin-left: 1500px; */
+    /* margin-top: 50px; */
     font-family:Arial, Helvetica, sans-serif;
     cursor: pointer;
-
+    text-align: right;
 }
-
 
 .content{
     width: 80%;
